@@ -1,0 +1,144 @@
+body{
+    overflow-x: hidden;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(107, 107, 107);
+}
+.headtableau{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.month{
+    font-size: x-large;
+    font-weight: 600;
+}
+.day{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 12%;
+    left: 1%;
+}
+
+.days{
+    padding-left: 45%;
+}
+
+
+.tableau{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hours{
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 97%;
+}
+
+
+.hours p{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-bottom: 4%;
+    border: 1px solid black;
+}
+
+.hours6{
+    display: flex;
+    flex-direction: row;
+}
+
+.hours6 p{
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.hours .block{
+    width: 8%;
+}
+
+.hours .red{
+    background-color: red;
+}
+.hours .green{
+    background-color: green;
+}
+.hours .blue{
+    background-color: blue;
+}
+.hours .yellow{
+    background-color: yellow;
+}
+
+.hours .timeblock{
+    width: 0%;
+}
+
+.timeblock p{
+    display: flex;
+    align-items: center;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+margin-top: 5%;
+padding-bottom: 15%;
+padding-top: 10%;
+background-color: rgb(219, 218, 218);
+border-radius: 20px;
+}
+
+.buttonform {
+	background-color:#0D172B;
+	border-radius:29px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 49px;
+	text-decoration:none;
+}
+.buttonform:hover {
+	background-color:#1a2d53;
+}
+.buttonform:active {
+	position:relative;
+	top:1px;
+}
+
+.cbutton{
+    margin-top: 2.5%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    font-style: italic;
+    font-size: small;
+}
+
+.headformulaire{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 600;
+}
